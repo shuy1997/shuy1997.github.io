@@ -3,37 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的简单网页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        p {
-            color: #666;
-        }
-        .container {
-            background-color: #f9f9f9;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>多媒体示例页面</title>
 </head>
 <body>
-    <div class="container">
-        <h1>欢迎来到</h1>
-        <p>这是一个简单的 HTML 示例页面。</p>
-        <p>你可以在这里添加更多内容，比如链接、图片等。</p>
-        <a href="https://example.com">这是一个链接示例</a>
-        <img src="https://via.placeholder.com/150" alt="占位图片">
-    </div>
+    <h1>多媒体示例页面</h1>
+
+    <!-- 视频示例 -->
+    <h2>视频示例</h2>
+    <video width="640" height="360" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- 图片示例 -->
+    <h2>图片示例</h2>
+    <img src="image.jpg" alt="图片示例">
+
+    <!-- 音乐示例 -->
+    <h2>音乐示例</h2>
+    <audio controls>
+        <source src="music.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- 网站链接示例 -->
+    <h2>网站链接示例</h2>
+    <p>访问<a href="https://example.com">示例网站</a></p>
 </body>
 </html>
